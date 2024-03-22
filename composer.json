@@ -1,0 +1,15 @@
+{
+    "name": "ruben/notas",
+    "autoload": {
+        "psr-4": {
+            "Ruben\\Notas\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DevRuben9",
+            "email": "sinanipaxi9@gmail.com"
+        }
+    ],
+    "require": {}
+}

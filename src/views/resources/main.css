@@ -1,0 +1,98 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Signika Negative", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+
+body{
+	background: #f4f1bb;
+}
+
+nav{
+	width: 100%;
+	height: 50px;
+	background: #373739;
+	display: flex;
+	align-items: center;
+	padding-right: 20px;
+}
+nav ul{
+	display: flex;
+	justify-content: flex-start;
+	gap: 10px;
+}
+
+nav ul li a{
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav ul li{
+	list-style: none;
+	padding-left: 20px;
+}
+
+.container{
+	padding: 3% 5% 0% 5%;
+}
+
+.messageContainer{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 2%;
+}
+
+.messages{
+	width: 150px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #118ab2;
+	border-radius: 10px;
+}
+
+.messages a{
+	color: #fff;
+	text-decoration: none;
+}
+
+button{
+	margin: 0;
+	border-style: none;
+	color: #fff;
+	padding: 1% 1% 1% 1%;
+	border-radius: 10px;
+	background: #29892d;
+	grid-column: 2/4;
+	grid-row: 10/11;
+}
+
+input[type=text]{
+	height: 30px;
+}
+textarea{
+	border-radius: 5px;
+}
+form{
+	width: 100%;
+	height: 70vh;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(14, 1fr);
+}
+
+.formText1{
+	grid-column: 2/4;
+	grid-row: 2/4;
+}
+
+.formText2{
+	grid-column: 2/4;
+	grid-row: 4/6;
+}
